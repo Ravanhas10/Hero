@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo {
+    background-image: url(img/Fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #790000;
+    height: 100vh;
+    width: 210vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #000;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+
+.logo p {
+    color: #FFF;
+}
+
+.logo .texto-destaque {
+    color: #FF0000;
+}
+
+nav {
+    display: flex;
+    gap: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: rgb(230, 61, 193);
+}
